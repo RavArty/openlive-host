@@ -23,7 +23,7 @@ const Index = () => {
   const mutationCtx = useGlobalMutation();
   const classes = useStyles();
 
-  useEffect(() => {
+  /*useEffect(() => {
     axios({
       url: Constants.connectUrl,
       method: "get",
@@ -38,7 +38,7 @@ const Index = () => {
           "There was an issue with your payment! Please make sure you use the provided credit card."
         );
       });
-  }, []);
+  }, []);*/
 
   useEffect(() => {
     if (stateCtx.loading === true) {
